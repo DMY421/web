@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    background: #f2f2f2;
+}
+.header nav{
+    width: 990px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+.header ul li{
+    margin: 0 6px;
+    cursor: pointer;
+}
+.header ul li:hover,.header ul li a:hover{
+    color: red;
+}
+.header ul li a{
+    color: #999;
+}
+.search{
+    width: 990px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.search div{
+    width: 536px;
+    height: 36px;
+    border:3px solid red;
+}
+.search div:after{
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+.search div input{
+    width: 440px;
+    height: 30px;
+    float: left;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.search div button{
+    width: 90px;
+    height: 30px;
+    background-color: red;
+    outline: none;
+    border: none;
+    float: left;
+    color: #fff;
+}
+.nav{
+    height: 56px;
+    background-color: rgb(230, 49, 64);
+}
+.nav nav{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav nav ul:first-child{
+    display: flex;
+    width: 321px;
+    align-items: center;
+    height: 56px;
+}
+.nav nav ul:last-child{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    height: 56px;
+    justify-content: space-between;
+    color: #a2a2a2;
+}
+.nav nav ul:last-child li{
+    cursor: pointer;
+    color: rgb(252, 220, 221);
+}
+.nav nav ul:first-child li:first-child{
+    width: 105px;
+    height: 40px;
+    background-image: url("https://img.alicdn.com/tps/i2/TB1pwR4LpXXXXahXFXXaLEvUFXX-277-362.png");
+    cursor: pointer;
+}
+.nav nav ul:first-child li:nth-child(2),.nav nav ul:first-child li:nth-child(3){
+    margin-left: 30px;
+}
+.nav nav ul:first-child li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+.nav nav ul:first-child li a:hover{
+    background-color: #fff;
+    color: red;
+}
+.div-goods{
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.div-main{
+    background-color: rgb(242, 242, 242);
+}
+.div-goods ul{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.div-goods ul li {
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.div-goods ul li img{
+    width: 280px;
+}
+.div-goods ul li p:nth-child(2){
+    font-size: 21px;
+    color: rgb(51, 51, 51);
+}
+.div-goods ul li p:nth-child(3){
+    font-size: 21px;
+    color: rgb(255, 0, 54);
+}
+.div-goods ul li p:nth-child(4){
+    font-size: 27px;
+    color: rgb(255,18,73);
+}
+.div-goods ul li p:nth-child(4)  span{
+    font-size: 20px;
+    color: rgb(153,153,153);
+    text-decoration: line-through;
+}
+.div-goods button{
+    display: block;
+    width: 440px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-size: 20px;
+    color: red;
+    border: 1px solid rgb(231,66,99);
+}
+.div-footer{
+    background-color: #fff;
+}
+.main-footer{
+    width: 1190px;
+    margin: 0 auto;
+}
+.main-footer dt{
+    color: #3c3c3c;
+    font-size: 16px;
+}
+.main-footer dl{
+    color: #646464;
+}
+.main-footer dt,.main-footer dd{
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.main-footer{
+    padding:0  60px ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main-footer img{
+    width: 105px;
+}
+footer {
+    background-color: black;
+    color: #fff;
+}
+footer>div:first-child ul li a,
+footer>div:nth-child(2) ul li a,
+footer>div:nth-child(2),
+footer>div:last-child p{
+    color: #fff;
+}
